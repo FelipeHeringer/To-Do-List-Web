@@ -2,7 +2,7 @@ interface FooterProps { remaining: number; quote: string };
 
 export default function Footer({ remaining, quote }: FooterProps) {
     return (
-        <footer className="mt-3 pt-4">
+        <footer className=" md:mt-3 pt-4">
             <p className="text-[0.8rem] font-semibold text-[#555] mb-2">
                 Your remaining todos: {remaining}
             </p>

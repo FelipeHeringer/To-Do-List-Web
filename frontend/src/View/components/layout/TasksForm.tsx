@@ -17,7 +17,7 @@ export default function TaskForm({ onAddTask }: TaskFormProps) {
     }
 
     return (
-        <section className="flex items-center gap-2.5mb-4 pb-2.5 border-b-[1.5px] border-b-solid border-b-[#d0d3da]">
+        <section className="flex items-center gap-2.5 mb-4 pb-2.5 border-b-[1.5px] border-b-solid border-b-[#d0d3da]">
             <form className="flex items-center gap-2.5 flex-1" onSubmit={handleSubmit}>
                 <input
                     value={value}

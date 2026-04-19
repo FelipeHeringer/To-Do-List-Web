@@ -3,7 +3,7 @@ import { HomePage } from "./View/pages/HomePage";
 
 export function App() {
   return (
-    <div className="min-h-screen bg-[#e8eaed] flex items-center justify-center px-4 py-10">
+    <div className="min-h-screen bg-white md:bg-[#e8eaed] md:flex md:items-center md:justify-center md:px-4 md:py-10">
       <Routes>
         <Route path="/" element={<HomePage />} />
       </Routes>
